@@ -86,7 +86,6 @@ class FlyingRectangle implements Entity {
 
     // Check if the entity is colliding at the bottom
     if (this.y + Sizes.RECT_HEIGHT >= Sizes.CANVAS_HEIGHT) {
-      debugger
       this.yDir = Directions.UP
       this.updateColor()
     }
