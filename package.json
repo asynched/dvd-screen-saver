@@ -1,0 +1,13 @@
+{
+  "name": "dvd-screen-saver",
+  "private": true,
+  "scripts": {
+    "dev": "bun ./index.html"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
